@@ -8,8 +8,8 @@ from time import sleep
 broker="1.1.1.1"         #IP (str)
 port=1883                #Porta (int)
 intervalo_publicacao=10  #Tempo em segundos (int)
-usuario='xxxxx'          #Nome do usuário (str)
-senha='xxxxx'            #Senha (str)
+usuario='samu'          #Nome do usuário (str)
+senha='samu'            #Senha (str)
 
 cliente_mqtt = paho.Client('python-mqtt')
 
